@@ -1,5 +1,45 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+header {
+  border-bottom: 1px solid rgba(86, 178, 128, 0.2);
+}
+
+header nav {
+  padding: 2.5rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2.4rem;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #272727;
+}
+
+header nav #icons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
