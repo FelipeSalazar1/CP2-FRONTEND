@@ -11,6 +11,7 @@
 
 body {
   font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
 }
 
 button {
@@ -27,7 +28,7 @@ button {
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   background: #49976c;
 }
 
@@ -93,7 +94,6 @@ main #intro {
 
 #intro #centerBox #text h1 {
   color: #1d252c;
-  font-family: Poppins;
   font-size: 4rem;
   font-weight: 500;
   line-height: 5.7rem;
@@ -105,4 +105,60 @@ main #intro {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 2.5rem;
+}
+
+.products {
+  padding: 16.6rem 9rem;
+  text-align: center;
+}
+
+.products h2 {
+  color: #0b254b;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 5.76rem;
+  margin-bottom: 1.5rem;
+}
+
+.products p {
+  color: #5e6e89;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.7rem;
+}
+
+.products #itensBox {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 6rem;
+}
+
+.products #itensBox .itemWrapper {
+  width: 25.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 0.5rem;
+}
+
+.products #itensBox .itemWrapper img {
+  background-color: rgba(123, 123, 123, 15%);
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.products #itensBox .itemWrapper .text {
+  padding: 1.6rem 2.6rem;
+}
+
+.products #itensBox .itemWrapper .text h3 {
+  color: #1d293f;
+  text-align: left;
+  font-weight: 500;
+}
+
+.products #itensBox .itemWrapper .text p {
+  color: #56b280;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 2rem;
+  font-weight: 500;
 }
