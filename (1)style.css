@@ -76,6 +76,8 @@ main #intro {
   background-color: #f7f8facc;
   gap: 4.5rem;
   padding: 5rem 9.5rem;
+  max-width: 73rem;
+  margin: 0 auto;
 }
 
 #intro #centerBox #text {
@@ -131,7 +133,9 @@ main #intro {
   display: grid;
   gap: 3rem;
   grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
   margin-top: 6rem;
+  max-width: 111.1rem;
 }
 
 .products #itensBox .itemWrapper {
