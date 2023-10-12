@@ -45,7 +45,7 @@ header nav {
 
 header nav ul {
   display: flex;
-  gap: 2.4rem;
+  gap: 8rem;
   list-style: none;
 }
 
@@ -166,4 +166,41 @@ main #intro {
   font-family: Roboto;
   font-size: 2rem;
   font-weight: 500;
+}
+
+#specifications {
+  display: flex;
+  padding: 16.6rem 9rem;
+  justify-content: center;
+  gap: 3rem;
+  background-color: #f7f8fa;
+}
+
+#specifications #leftside h2 {
+  width: 35rem;
+  color: #1d252c;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 4.6rem;
+  margin-bottom: 1.5rem;
+}
+
+#specifications #leftside h3 {
+  color:#56b280;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.2rem;
+  margin-bottom: 3.8rem;
+}
+
+#specifications #leftside #characteristics {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 7rem;
+}
+
+#specifications #leftside #characteristics .contentWrapper {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
 }
