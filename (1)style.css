@@ -186,7 +186,7 @@ main #intro {
 }
 
 #specifications #leftside h3 {
-  color:#56b280;
+  color: #56b280;
   font-style: normal;
   font-weight: 400;
   line-height: 2.2rem;
@@ -202,5 +202,59 @@ main #intro {
 #specifications #leftside #characteristics .contentWrapper {
   display: flex;
   align-items: center;
-  gap: .7rem;
+  gap: 0.7rem;
+}
+
+#testimonials {
+  display: grid;
+  padding: 16.6rem 9rem;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(86, 178, 128, 10%);
+}
+
+#testimonials h2 {
+  color: #0b254b;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 5.7rem;
+  margin-bottom: 1.5rem;
+}
+
+#testimonials h3 {
+  color: #5e6e89;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.7rem;
+  margin-bottom: 3rem;
+}
+
+#testimonials #testimonialsBox {
+  display: grid;
+  gap: 3rem;
+  max-width: 111rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#testimonials #testimonialsBox .testimonialsWrapper {
+  display: grid;
+  place-items: center;
+  background-color: #ffffff;
+  padding: 3rem 1.5rem;
+  gap: 1.5rem;
+}
+
+#testimonials #testimonialsBox .testimonialsWrapper h4 {
+  max-width: 30rem;
+  color: #1d293f;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 2.8rem;
+}
+
+#testimonials #testimonialsBox .testimonialsWrapper p {
+  color: #7c8087;
+  font-family: Helvetica;
+  font-size: 1.8rem;
+  font-weight: 400;
 }
