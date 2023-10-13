@@ -280,6 +280,20 @@ main #intro {
   line-height: 2.7rem;
 }
 
+#popular .itensBox .itemWrapper .text h3 {
+  color: #1d293f;
+  text-align: left;
+  font-weight: 500;
+}
+
+#popular .itensBox .itemWrapper .text p {
+  color: #56b280;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
 footer #blackBG {
   display: flex;
   padding: 6rem 16.5rem;
@@ -327,7 +341,7 @@ footer #blackBG #rightside .more p {
 
 #copyright {
   padding: 2.6rem 16.5rem;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 #copyright p {
