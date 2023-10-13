@@ -290,7 +290,8 @@ footer #blackBG #container {
   display: flex;
   border-top: 1px solid #fff;
   padding: 2rem 0;
-  gap: 25rem;
+  justify-content: space-between;
+  width: 100vw;
 }
 
 footer #blackBG #container #leftside p {
@@ -302,7 +303,8 @@ footer #blackBG #container #leftside p {
 
 footer #blackBG #rightside {
   display: flex;
-  gap: 4rem;
+  gap: 15rem;
+  padding: 0 5rem;
 }
 
 footer #blackBG #rightside .more {
