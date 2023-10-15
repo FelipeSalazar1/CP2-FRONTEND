@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,500&family=Sora:wght@300;400;500;600;700&display=swap');
 
 * {
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.colors-background {
+    background: linear-gradient(to right,  #fff 50%, rgba(242, 242, 242, 1) 30%); /* Aqui você define as cores e a divisão de 50% */
 
+}
 
 nav {
     width: 100%;
@@ -16,6 +20,230 @@ nav {
     align-items: flex-start;
     
 }
+
+.cart-nav{
+    color:rgba(86, 178, 128, 1);
+}
+
+.details-nav{
+    color: rgba(86, 178, 128, 1);
+}
+
+.shipping-nav{
+    color:rgba(39, 39, 39, 1);
+    font-weight: 700;
+    
+}
+
+
+
+
+
+
+
+section#products{
+    display: flex;
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    flex-direction: column;
+    background-color: rgba(242, 242, 242, 1);
+    margin-top: 10%;
+    margin-right: 5%;
+   
+  
+}
+
+.line {
+
+    padding: 5%;
+    margin-top: 15%;
+    margin-right: 10%;
+}
+
+.line2{
+    
+    margin-top: 5%;
+    margin-right: 8%;
+}
+
+
+.line3{
+    margin-top: 5%;
+
+}
+
+.search-bar{
+    display: flex;
+    
+    
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.1px;
+    margin-left: 15%;
+    margin-top: 2%;
+    padding: 2%;
+    
+    border: 0.5px;
+    border-style: solid;
+    border-color: rgba(137, 137, 137, 1);
+   
+    border-width: 0.5px;
+    width: 285px;
+    background-color: #fff;
+    margin: 5px;
+    text-align: center;
+   
+    
+   
+    
+
+    
+}
+
+
+.search-product{
+    display: flex;
+    gap: 2%;
+    margin-left: 3rem;
+   
+
+}
+
+
+
+.button-add {
+    display: flex;
+    align-items: center;
+    padding: 6px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    width: 116px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    margin: 0;
+    color: #fff;
+    cursor: pointer;
+    
+  
+    background: rgba(168, 168, 168, 1);
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+    color: #DFDEDF;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+  
+  .button-add:focus {
+    box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+    outline: 0;
+  }
+
+
+
+section#products img {
+    width: 100%;
+}
+  
+.purchase{
+    margin-right: 5%;
+
+
+
+
+}
+.money{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    width: 500px;
+    gap: 16.8rem;
+    padding-top: 5%;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    height: 26px;
+    color: rgba(97, 97, 97, 1);
+    margin-left: 2rem;
+    
+    
+    
+}
+
+.delivery{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    padding-top: 5%;
+    gap: 14rem;
+    width: 500px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    height: 26px;
+    color: rgba(97, 97, 97, 1);
+    margin-left: 2rem;
+    
+
+
+
+}
+
+
+.price{
+    font-weight: 800;
+    color :rgba(39, 39, 39, 1);
+}
+
+.free-shipping{
+    font-weight: 800;
+    color :rgba(39, 39, 39, 1);
+}
+
+
+.conclusion{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5%;
+    width: 500px;
+    gap: 16.8rem;
+    padding-top: 5%;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    height: 26px;
+    color: rgba(97, 97, 97, 1);
+    margin-left: 2rem;
+
+}
+
+
+.final-price{
+    font-size: 24px ;
+    color: rgba(39, 39, 39, 1);
+
+
+}
+
+
+
+
+
+
+
 
 img#logo{
     display: flex;
@@ -37,25 +265,227 @@ div#nav-bar5{
 
 }
 
-div#nav-bar5 li {
+div#nav-bar5 p {
     position: relative;
 }
 
-div#nav-bar5 li:not(:first-child)::before{
+div#nav-bar5 p:not(:first-child)::before{
     content: ">";
     position: absolute;
     left: -20px;
 }
 
-section#client-data{
+section#client-data div  {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    width: 600px;
     list-style: none;
     align-items: center;
     gap: 2rem;
     padding: 2%;
-    border: 1px solid rgba(86, 178, 128, 0.2);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(86, 178, 128, 0.2);
+    border-radius: 7px;
+    margin: 5px;
+    font-family: "Helvetica";
+    white-space: nowrap;
+    margin-left: 5%;
+
 }
+
+section#client-data h1 {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+    color:rgba(129, 129, 129, 1);
+}
+
+
+div#client-data li{
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+ 
+}
+
+section#client-data div p {
+   color: rgba(86, 178, 128, 1);
+  
+   left: 600px;
+
+}
+
+.edit-contact{
+    padding-left: 35.5%;
+
+
+}
+
+
+
+
+
+.text-shipping {
+    display: flex;
+    justify-content: space-around; 
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(229, 229, 229, 1);
+    border-width: 1px;
+    border-radius: 7px;
+    margin: 5px ;
+    width: 600px;
+    margin-left: 5%;
+    padding: 2%;
+    
+
+   
+    
+
+
+    
+   
+}
+
+
+h2{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.8999999165534973px;
+    text-align: left;
+    padding: 3%;
+    color: rgba(39, 39, 39, 1);
+    margin-left: 1%;
+
+
+
+}
+
+.green-text{
+    display: flex;
+    text-align: center;
+    gap: 1.5rem;
+    
+    padding-right: 50%;
+    white-space: nowrap;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    
+    
+}
+
+.free {
+    display: flex;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: rgba(39, 39, 39, 1);
+   
+}
+
+
+
+.buttons {
+    display: flex;
+    
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-top: 35%;
+    margin-bottom: 5%;
+    cursor: pointer;
+    gap: 10%;
+
+    
+
+
+}
+
+
+.back {
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.8999999165534973px;
+    color: rgba(86, 178, 128, 1);
+    width: 160px;
+    text-decoration: underline;
+    
+}
+
+.button-payment {
+    display: flex;
+
+    justify-content: flex-end;
+    width: 200px;
+    background-color: rgba(86, 178, 128, 1);
+    border: 1px solid rgba(86, 178, 128, 1);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 20px;
+    font-weight: 420;
+    outline: none;
+    outline: 0;
+    padding: 1rem;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-payment:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+  }
+  
+
+section#products{
+  display: flex;
+  align-self: flex-end;
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
