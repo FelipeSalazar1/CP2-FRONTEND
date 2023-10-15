@@ -129,7 +129,7 @@ main #intro {
   line-height: 2.7rem;
 }
 
-.products #itensBox {
+.itensBox {
   display: grid;
   gap: 3rem;
   grid-template-columns: repeat(4, 1fr);
@@ -138,29 +138,28 @@ main #intro {
   max-width: 111.1rem;
 }
 
-.products #itensBox .itemWrapper {
+.itensBox .itemWrapper {
   width: 25.5rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 0.5rem;
   cursor: pointer;
 }
 
-.products #itensBox .itemWrapper img {
+.itensBox .itemWrapper img {
   background-color: rgba(123, 123, 123, 15%);
   border-radius: 0.5rem 0.5rem 0 0;
 }
-
-.products #itensBox .itemWrapper .text {
+.itensBox .itemWrapper .text {
   padding: 1.6rem 2.6rem;
 }
 
-.products #itensBox .itemWrapper .text h3 {
+.itensBox .itemWrapper .text h3 {
   color: #1d293f;
   text-align: left;
   font-weight: 500;
 }
 
-.products #itensBox .itemWrapper .text p {
+.itensBox .itemWrapper .text p {
   color: #56b280;
   text-align: right;
   font-family: Roboto;
@@ -257,4 +256,96 @@ main #intro {
   font-family: Helvetica;
   font-size: 1.8rem;
   font-weight: 400;
+}
+
+#popular {
+  display: grid;
+  padding: 16.6rem 9rem;
+  justify-content: center;
+  text-align: center;
+}
+
+#popular h2 {
+  color: #0b254b;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 5.7rem;
+  margin-bottom: 1.5rem;
+}
+
+#popular p {
+  color: #5e6e89;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.7rem;
+}
+
+#popular .itensBox .itemWrapper .text h3 {
+  color: #1d293f;
+  text-align: left;
+  font-weight: 500;
+}
+
+#popular .itensBox .itemWrapper .text p {
+  color: #56b280;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+footer #blackBG {
+  display: flex;
+  padding: 6rem 16.5rem;
+  background-color: #272727;
+}
+
+footer #blackBG #container {
+  display: flex;
+  border-top: 1px solid #fff;
+  padding: 2rem 0;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+footer #blackBG #container #leftside p {
+  color: #fff;
+  font-weight: 400;
+  line-height: 2.2rem;
+  width: 27rem;
+}
+
+footer #blackBG #rightside {
+  display: flex;
+  gap: 15rem;
+  padding: 0 5rem;
+}
+
+footer #blackBG #rightside .more {
+  display: grid;
+  gap: 2.4rem;
+  margin-top: 4rem;
+}
+
+footer #blackBG #rightside .more h2 {
+  color: #56b280;
+  font-weight: 500;
+  line-height: 2.8rem;
+}
+
+footer #blackBG #rightside .more p {
+  color: #e1e1e1;
+  font-weight: 500;
+  line-height: 2.8rem;
+}
+
+#copyright {
+  padding: 2.6rem 16.5rem;
+  background-color: #e5e5e5;
+}
+
+#copyright p {
+  color: #5e6e89;
+  font-weight: 400;
+  line-height: 2.8rem;
 }
