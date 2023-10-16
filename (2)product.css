@@ -28,18 +28,9 @@ body {
   cursor: pointer;
 }
 
-#button-cart button {
-  padding: 0.8rem 4.4rem;
-  background: #56b280;
-  border: none;
-  border-radius: 0.4rem;
-
+.btn-cart button a {
+  text-decoration: none;
   color: #fff;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 2rem;
-  font-weight: 500;
-  cursor: pointer;
 }
 
 button:hover {
