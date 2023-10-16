@@ -20,12 +20,16 @@ button {
   border: none;
   border-radius: 0.4rem;
 
-  color: #fff;
   text-align: center;
   font-family: Roboto;
   font-size: 2rem;
   font-weight: 500;
   cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
 }
 
 button:hover {

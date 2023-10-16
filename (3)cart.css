@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  border-bottom: 1px solid rgba(86, 178, 128, 0.2);
+}
+
+header nav {
+  padding: 2.5rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  gap: 8rem;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #272727;
+}
+
+header nav #icons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+main {
+  padding: 10px;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.container p {
+  text-align: center;
+  padding: 5rem 0rem 0rem;
+  margin-top: 0px;
+}
+
+.container a {
+  color: rgba(86, 178, 128, 1);
+}
+
+.container h1 {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  margin-top: 100px;
+}
+
+main ul {
+  border-bottom: 1px solid rgba(86, 178, 128, 0.2);
+}
+
+main .midzinho ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  padding: 2.5rem 40rem;
+  gap: 41.5rem;
+
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #272727;
+}
+
+main img {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+main .productname {
+  margin-left: 400px;
+  align-items: center;
+  justify-content: center;
+  margin-top: -125px;
+}
+
+main .productname h2 a {
+  color: black;
+  text-decoration: none;
+}
+
+main .productname p {
+  color: rgba(86, 178, 128, 1);
+  margin-top: 30px;
+}
+
+.buyimg {
+  margin-top: 40px;
+  margin-left: 209px;
+}
+
+main .midtwo ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  padding: 2.5rem 35rem;
+
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #272727;
+  margin-left: 477px;
+  margin-top: -38px;
+}
+
+main .check-out h3 {
+  display: flex;
+  justify-content: end;
+  margin: 5rem 60rem;
+  text-align: center;
+}
+
+main .check-out h4 {
+  display: flex;
+  justify-content: end;
+  margin-top: -70px;
+  margin-right: 480px;
+  text-align: center;
+}
+
+main .check-out button {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 1500px;
+  margin-top: -30px;
+  background: rgba(86, 178, 128, 1);
+  color: white;
+  padding: 10px 33px;
+  border: none;
+}
+
+main .check-out button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer #blackend {
+  display: flex;
+  padding: 6rem 16.5rem;
+  background-color: #272727;
+}
+
+footer #blackend #container {
+  display: flex;
+  border-top: 1px solid #fff;
+  padding: 2rem 0;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+footer #blackend #container #leftside p {
+  color: #fff;
+  font-weight: 400;
+  line-height: 2.2rem;
+  width: 27rem;
+}
+
+footer #blackend #rightside {
+  display: flex;
+  gap: 15rem;
+  padding: 0 5rem;
+}
+
+footer #blackend #rightside .more {
+  display: grid;
+  gap: 2.4rem;
+  margin-top: 4rem;
+}
+
+footer #blackend #rightside .more h2 {
+  color: #56b280;
+  font-weight: 500;
+  line-height: 2.8rem;
+}
+
+footer #blackend #rightside .more p {
+  color: #e1e1e1;
+  font-weight: 500;
+  line-height: 2.8rem;
+}
+
+#copyright {
+  padding: 2.6rem 16.5rem;
+  background-color: #e5e5e5;
+}
+
+#copyright p {
+  color: #5e6e89;
+  font-weight: 400;
+  line-height: 2.8rem;
+}
