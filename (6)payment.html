@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./(6)payment.css" media="screen" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <title>Document</title>
+</head>
+<body>
+
+    <section id="primary-section">
+
+    <aside id="white-aside">
+
+        <div id="authentication-content">
+
+            <div>
+                <img src="./src/candleLeafLogoNav.svg" alt="Logo Candleaf" />
+            </div>
+
+            <ul id="nav-list">
+                <li class="green-font">Cart</li>
+                <li class="chevron-icon"><i class="bi bi-chevron-compact-right"></i></li>
+                <li class="green-font">Details</li>
+                <li class="chevron-icon"><i class="bi bi-chevron-compact-right"></i></li>
+                <li class="green-font">Shipping</li>
+                <li class="chevron-icon"><i class="bi bi-chevron-compact-right"></i></li>
+                <li class="bold-font">Payment</li>
+            </ul>
+
+            <!-- Primeira div, com contato, ship to e e Method  -->
+
+            <div id="div-contact-info">
+
+                <div id="contact" class="content-info-line">
+                    <div class="left-space-between">
+                        <p class="gray-info">Contact</p>
+                        <p class="specific-data">joe.spagnuolo@uxbly.com</p>
+                    </div>
+                    <p class="edit">Edit</p>
+                </div>
+                <div class="contact-info-divisor"></div>
+                <div id="ship-to" class="content-info-line">
+                    <div class="left-space-between">
+                        <p class="gray-info">Ship to</p>
+                        <p class="specific-data">Via Firenze 23, 92023, Campobello di  Licata AG, Italia</p>
+                    </div>
+                    <p class="edit">Edit</p>
+                </div>
+                <div class="contact-info-divisor"></div>
+                <div id="method" class="content-info-line">
+                    <div class="left-space-between">
+                        <p class="gray-info">Method</p>
+                        <p class="specific-data">Standard Shipping - FREE</p>
+                    </div>
+                    <p class="edit">Edit</p>
+                </div>
+
+            </div>
+
+            <p class="h2">Payment Method</p>
+
+                <div id="div-payment-method">
+
+                    <div id="credit-card">
+                        <div>
+                            <img src="./src/CreditCardFill.png" alt="Credit Card Icon" id="credit-card-img">
+                        </div>
+                        <p id="p-credit-card">Credit Card</p>
+                    </div>
+
+                    <div id="div-white-payment-method-content">
+
+                        <div id="div-payment-method-column">
+                            <div class="payment-method-line div-column-payment-method-line" id="card-number">
+                                <p class="p-payment-method-line">Card Number</p>
+                                <i class="bi bi-lock-fill" id="lock-icon"></i>
+                            </div>
+
+                            <div class="payment-method-line div-column-payment-method-line">
+                                <p class="p-payment-method-line">Holder Name</p>
+                            </div>
+                        </div>
+
+                        <div id="div-row-payment-method-line">
+                            <div class="payment-method-line" id="expiration">
+                                <p class="p-payment-method-line">Expiration (MM/YY)</p>
+                            </div>
+                            <div class="payment-method-line" id="cvv">
+                                <p class="p-payment-method-line">CVV</p>
+                                <div>
+                                    <i class="bi bi-info-square-fill" id="info-square"></i>                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="h2">Tax Informations</p>
+                
+                <div id="tax-informations-container">
+                    <div class="tax-informations-line">
+                        <p class="p-tax-informations-line">VAT Number (optional)</p>
+                    </div>
+
+                    <div class="tax-informations-line">
+                        <p class="p-tax-informations-line">PEC (optional)</p>
+                    </div>
+                </div>
+
+                <p class="h2">Billing Adress</p>
+                
+                <div id="billing-adress-container">
+                    <div class="billing-adress-line">
+                        <img src="./src/round-checkbox-green.svg" alt="Checked Checkbox">
+                        <p class="p-billing-adress-line">Same as the shipping adress</p>
+                    </div>
+                    <div id="billing-adress-divisor"></div>
+                    <div class="billing-adress-line">
+                        <img src="./src/round-checkbox.svg" alt="Checked Checkbox">
+                        <p class="p-billing-adress-line">Use a different address for billing</p>
+                    </div>
+                </div>
+
+                <div id="link-container">
+                    <a href="" id="link-back-to-shipping">Back to shipping</a>
+                    <button id="btn-pay-now" type="button">Pay Now</button>
+                </div>
+        </div>
+
+
+
+    </aside>
+
+    <aside id="gray-aside">
+
+        <div id="product-content">
+
+                <div id="spiced-mint-candleaf-container">
+                    <div>
+                        <img src="./src/productWith1Icon.png" alt="Product Image">
+                        <imc src="./src/counter.svg" alt="Counter">
+                    </div>
+
+                    <div id="name-price-container">
+                        <p id="candleaf-name">Spiced Mint Candleaf®</p>
+                        <p id="candleaf-price">$ 9.99</p>
+                    </div>
+
+                </div>
+
+            <div class="green-divisor"></div>
+
+            <div id="div-coupon-code">
+                
+                <div id="div-insert-coupon-code">
+                    <p id="p-div-insert-coupon-code">Coupon Code</p>
+                </div>
+                <button id="btn-add-code" type="button">Add code</button>
+
+            </div>
+
+            <div class="green-divisor"></div>
+
+            <div id="div-total-shipping">
+                
+                <div class="div-class-total-shipping">
+                    <p class="div-class-total-shipping-item">Subtotal</p>
+                    <p class="div-class-total-shipping-item-data">$ 9.99</p>
+                </div>
+
+                <div class="div-class-total-shipping">
+                    <p class="div-class-total-shipping-item">Shipping</p>
+                    <p class="div-class-total-shipping-item-data">Free Shipping</p>
+                </div>
+
+            </div>
+
+            <div class="green-divisor"></div>
+
+            <div id="div-total-price">
+                <p class="div-class-total-price">Total</p>
+                <p class="div-class-total-price-value">$ 9.99</p>
+            </div>
+
+        </div>
+
+    </aside>
+    </section>
+</body>
+</html>
