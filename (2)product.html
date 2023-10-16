@@ -2,27 +2,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CandLeaf</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="(2)product.css" />
     
   </head>
   <body>
     <header>
       <nav>
-        <img src="./logopng.png" alt="Logo CandleLeaf" />
+        <img src="./src/logopng.png" alt="Logo CandleLeaf" />
         <ul>
           <li>
             <a href="#">Discovery</a>
-            <img src="./discoveryArrow.svg" alt="Seta para svg" />
+            <img src="./src/discoveryArrow.svg" alt="Seta para svg" />
           </li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact us</a></li>
         </ul>
 
         <div id="icons">
-          <a href="#"> <img src="./person.svg" alt="Icone de perfil" />
+          <a href="#"> <img src="./src/person.svg" alt="Icone de perfil" />
           </a>
           <a href="#">
-            <img src="./cart3.svg" alt="Icone de carrinho" />
+            <img src="./src/cart3.svg" alt="Icone de carrinho" />
           </a>
         </div> </nav>
     </header>
@@ -30,37 +30,46 @@
         <section id="conteudo">
           <div class="product">
             <div id="suco">
-            <img src="./imagesuco.png" alt="Icone do Suco" />
+            <img src="./src/imagesuco.png" alt="Icone do Suco" />
             <h1>All hand-made with natural soy wax, Candleaf is <br> made for your pleasure moments.</h1>
               <p>🚚 FREE SHIPPING</p>
           </div>
         </div>
           
           <div id="price">
-          <div class="productname">
-            <h2>Spiced Mint Candleaf®</h2>
-              <p>$ 9.99</p>
-          </div>
-          
-          <div id="quantity">
-          <div class="quant-btn">
-            <h3>Quantity</h3>
-              <button>+ 1 -</button>
-          </div>
-          </div>
-          
-          <div id="subscription">
-          <div class="purchase">
-            <h4>One time purchase</h4>
-            <h5>Subscribe and delivery every</h5>
-            <button>4 weeks</button>
-            <p>Subscribe now and get the 10% of discount <br> on every recurring order.  The discount will<br>be applied at checkout. See details</p>
-          </div>
-        </div>
+            <div class="productname">
+              <h2>Spiced Mint Candleaf®</h2>
+                <p>$ 9.99</p>
+            </div>
+            <div id="info">
+              
+              <div id="quantity">
+              <div class="quant-btn">
+                <h3>Quantity</h3>
+                  <button>+ 1 -</button>
+              </div>
+              </div>
+              
+              <div id="subscription">
+              <div class="purchase">
+                <h4>One time purchase</h4>
+                <div id="subscribe">
+                  <h5>Subscribe and delivery every</h5>
+                  <select  name="weeks" id="weeks">
+                    <optgroup label="Weeks">
+                      <option value="weeks">4 weeks</option>
+                      <option value="weeks">2 weeks</option>
+                    </optgroup>
+                  </select>
+                  <p>Subscribe now and get the 10% of discount <br> on every recurring order.  The discount will<br>be applied at checkout. See details</p>
+                </div>
+              </div>
+            </div>
+            </div>
 
 
             <div class="btn-cart">
-              <button>
+              <button id="cart">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
                   <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
                 </svg>
@@ -82,7 +91,7 @@
       <section id="black">
         <div id="container">
           <div id="leftside">
-            <img src="./footer.png" alt="black logo">
+            <img src="./src/footer.png" alt="black logo">
             <p>Your natural candle made for your home and for your wellness.</p>
           </div>
   
@@ -113,7 +122,6 @@
 
       <section id="copyright">
         <p>©Candleaf All Rights Reserved.</p>
-        <p><3 e.d<p>
       </section>
     </footer>
   </body>

@@ -1,223 +1,240 @@
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  :root{
-      font-size: 62.5%;
-    }
-    
-    body{
-      font-size: 1.6rem;
-      font-family: "Poppins", sans-serif;
-    }
-    
-    #button-cart button {
-      padding: 0.8rem 4.4rem;
-      background: #56b280;
-      border: none;
-      border-radius: 0.4rem;
-    
-      color: #fff;
-      text-align: center;
-      font-family: Roboto;
-      font-size: 2rem;
-      font-weight: 500;
-      cursor: pointer;
-    }
-    
-    button:hover{
-      background: #49976c;
-    }
-    
-    header{
-      border-bottom: 1px solid rgba(86, 178, 128, 0.2);
-    }
-    
-    header nav{
-      padding: 2.5rem 0;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-    }
-    
-    header nav ul{
-      display: flex;
-      gap: 2.4rem;
-      list-style: none;
-    }
-    
-    header nav ul li a{
-      text-decoration: none;
-      font-family: "Roboto", sans-serif;
-      font-weight: 500;
-      line-height: 1.8rem;
-      color: #272727;
-    }
-    
-    header nav #icons{
-      display: flex;
-      align-items: center;
-      gap: 2rem;
-    }
+:root {
+  font-size: 62.5%;
+}
 
-    main p{
-      color: #49976c;
-      
-    }
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
 
-  main #conteudo{
-      display: flex;
-      justify-content:center;
-      padding: 5rem 2rem;
-      
-  }
+.btn-cart button {
+  padding: 0.8rem 9.4rem;
+  background: #56b280;
+  border: none;
+  border-radius: 0.4rem;
 
-  .product img{
-      width: 528px;
-      height: 396px;
-      flex-shrink: 0;
-      background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-      align-items: center;
-      display: flex;
-      
-  }
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
 
-  main h1{
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      
+#button-cart button {
+  padding: 0.8rem 4.4rem;
+  background: #56b280;
+  border: none;
+  border-radius: 0.4rem;
 
-  }
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
 
-  main .product p {
-    text-align: center;
-  }
+button:hover {
+  background: #49976c;
+}
 
+header {
+  border-bottom: 1px solid rgba(86, 178, 128, 0.2);
+}
 
-  .purchase p{
-    color: gray;
-  }
+header nav {
+  padding: 2.5rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-  main #quantity .quant-btn{
-    min-height: 10rem;
-    padding: 8rem 0rem 0rem;
-    
-  }
+header nav ul {
+  display: flex;
+  gap: 2.4rem;
+  list-style: none;
+}
 
-  main #price .productname p{
-    padding: 3rem 0rem 0rem;
-    color: var(--green, #56B280);
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Poppins;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 3.6rem; /* 221.538% */
-    letter-spacing: -0.05625rem;
-  }
-  main h2{
-    display: flex;
-    width: 33.6875rem;
-    height: 3.625rem;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
+header nav ul li a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #272727;
+}
 
-    
-  }
+header nav #icons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
 
-  main #subscription .purchase h4{
-    width: 21.875rem;
-    height: 9.875rem;
-    display: flex;
-    padding: 0rem 25rem 0rem;
-    margin-top: -16.5rem;
-    
-  }
+main p {
+  color: #49976c;
+}
 
-  div#details {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    border: 1px solid #56B28033;
-    border-radius: 3%;
-    gap: 1rem;
-    width: 35rem;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-  }
+main #conteudo {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 2rem;
+  align-items: center;
+  gap: 5rem;
+}
 
-  div#details p {
-    color: #849A8E;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 400;
-  }
+#suco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
 
-  div#details strong {
-    color: #1D252C;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
-    font-weight: 600;
-  }
+.product img {
+  width: 528px;
+  height: 396px;
+  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  align-items: center;
+  display: flex;
+}
 
-  footer #black {
-    display: flex;
-    padding: 6rem 16.5rem;
-    background-color: #272727;
-  }
+main h1 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-  footer #black #container {
-    display: flex;
-    border-top: 1px solid #fff;
-    padding: 2rem 0;
-    justify-content: space-between;
-    width: 100vw;
-  }
+main .product p {
+  text-align: center;
+}
 
-  footer #black #container #leftside p {
-    color: #fff;
-    font-weight: 400;
-    line-height: 2.2rem;
-    width: 27rem;
-  }
+.purchase {
+  display: flex;
+}
 
-  footer #black #direita {
-    display: flex;
-    gap: 15rem;
-    padding: 0 5rem;
-  }
+.purchase p {
+  color: gray;
+}
 
-  footer #black #direita .mais {
-    display: grid;
-    gap: 2.4rem;
-    margin-top: 4rem;
-  }
+main #quantity .quant-btn {
+  min-height: 10rem;
+  padding: 8rem 0rem 0rem;
+}
 
-  footer #black #direita .mais h2 {
-    color: #56b280;
-    font-weight: 500;
-    line-height: 2.8rem;
-  }
+main #price .productname p {
+  padding: 3rem 0rem 0rem;
+  color: var(--green, #56b280);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.6rem; /* 221.538% */
+  letter-spacing: -0.05625rem;
+}
+main h2 {
+  display: flex;
+  width: 33.6875rem;
+  height: 3.625rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
 
-  footer #black #direita .mais p {
-    color: #e1e1e1;
-    font-weight: 500;
-    line-height: 2.8rem;
-  }
+main #subscription .purchase h4 {
+  width: 21.875rem;
+  height: 9.875rem;
+  display: flex;
+  padding: 0rem 25rem 0rem;
+  margin-top: -16.5rem;
+}
 
-  #copyright {
-    padding: 2.6rem 16.5rem;
-    background-color: #e5e5e5;
-  }
+div#details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #56b28033;
+  border-radius: 3%;
+  gap: 1rem;
+  width: 35rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
 
-  #copyright p {
-    color: #5e6e89;
-    font-weight: 400;
-    line-height: 2.8rem;
-  }
+div#details p {
+  color: #849a8e;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+div#details strong {
+  color: #1d252c;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+footer #black {
+  display: flex;
+  padding: 6rem 16.5rem;
+  background-color: #272727;
+}
+
+footer #black #container {
+  display: flex;
+  border-top: 1px solid #fff;
+  padding: 2rem 0;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+footer #black #container #leftside p {
+  color: #fff;
+  font-weight: 400;
+  line-height: 2.2rem;
+  width: 27rem;
+}
+
+footer #black #direita {
+  display: flex;
+  gap: 15rem;
+  padding: 0 5rem;
+}
+
+footer #black #direita .mais {
+  display: grid;
+  gap: 2.4rem;
+  margin-top: 4rem;
+}
+
+footer #black #direita .mais h2 {
+  color: #56b280;
+  font-weight: 500;
+  line-height: 2.8rem;
+}
+
+footer #black #direita .mais p {
+  color: #e1e1e1;
+  font-weight: 500;
+  line-height: 2.8rem;
+}
+
+#copyright {
+  padding: 2.6rem 16.5rem;
+  background-color: #e5e5e5;
+}
+
+#copyright p {
+  color: #5e6e89;
+  font-weight: 400;
+  line-height: 2.8rem;
+}
