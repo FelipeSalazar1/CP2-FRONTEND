@@ -248,12 +248,17 @@
     border: none;
     border-radius: 0.4rem;
   
-    color: #fff;
+    
     text-align: center;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-size: 1.125rem;
     font-weight: 500;
     cursor: pointer;  
+}
+
+#btn-pay-now a {
+    text-decoration: none;
+    color: #fff;
 }
 
 /* Gray aside*/
